@@ -1,8 +1,9 @@
 export default function CanvasPage() {
   return (
-    <main style={{ padding: "60px", textAlign: "center" }}>
-      <h1>Canvas Art</h1>
-      <p>Select a canvas style to continue.</p>
+    <main className="min-h-screen flex items-center justify-center">
+      <h1 className="text-2xl font-bold">
+        Canvas page working
+      </h1>
     </main>
   );
 }
